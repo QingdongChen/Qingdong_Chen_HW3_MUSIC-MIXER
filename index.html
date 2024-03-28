@@ -7,11 +7,82 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <h1 class="hidden">Audio Drag and Drop</h1>
-    <div id="container">
-        <img src="images/drums.jpg" alt="A Snare Drum with sticks" id="snareDrum" draggable="true">
-        <div id="dropZone"></div>
-    </div>
+    <div class="box-list"></div>
+
+    <audio id="myAudio" src="audio/clap.wav"></audio>
+    <audio id="myAudio2" src="audio/hihat.wav"></audio>
+
+    <div class="keys" id="box1-out">
+        <div class="key" id="clap" draggable="true">
+          
+          <span data-trackref="clap" class="sound" >clap</span>
+        </div>
+        
+        <div class="key" id="hihat" draggable="true">
+          
+          <span data-trackref="hihat" class="sound">hihat</span>
+        </div>
+
+        <div class="key" id="kick" draggable="true">
+          
+          <span data-trackref="kick" class="sound">kick</span>
+        </div>
+
+        <div class="key" id="openhat" draggable="true">
+          
+          <span data-trackref="openhat" class="sound">openhat</span>
+        </div>
+
+        <div class="key" id="boom" draggable="true">
+          
+          <span data-trackref="boom" class="sound">boom</span>
+        </div>
+
+        <div class="key" id="ride" draggable="true">
+          
+          <span data-trackref="ride" class="sound">ride</span>
+        </div>
+
+        <div class="key" id="snare" draggable="true">
+          
+          <span data-trackref="snare" class="sound">snare</span>
+        </div>
+
+        <div class="key" id="tom" draggable="true">
+          
+          <span data-trackref="tom" class="sound">tom</span>
+        </div>
+
+        <div class="key" id="tink" draggable="true">
+        
+          <span data-trackref="tink" class="sound">tink</span>
+        </div>
+      </div>
+
+      <!-- <div id="dropZone"></div>
+      <div id="dropZone2"></div> -->
+
+      <div class="dropZone" id="dropbox">
+      <div class="dropitem" id="dropZone1"></div>
+      <div class="dropitem" id="dropZone2"></div>
+      <div class="dropitem" id="dropZone3"></div>
+      <div class="dropitem" id="dropZone4"></div>
+      
+      </div>
+
+
+      <div class="dropZone11" id="dropbox2">
+        
+        <div class="dropitem" id="dropZone5"></div>
+        <div class="dropitem" id="dropZone6"></div>
+        <div class="dropitem" id="dropZone7"></div>
+        <div class="dropitem" id="dropZone8"></div>
+        <div class="dropitem" id="dropZone9"></div>
+        </div>
+
+      
+      
+    
     <script src="js/main.js"></script>
 </body>
 </html>
