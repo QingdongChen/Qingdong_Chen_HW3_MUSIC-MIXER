@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: #282a36;
+}
+
+.box-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    /* margin: 200px auto; */
+    
+}
+
+.box-item{
+    width: 40px;
+    height: 40px;
+    background: #181818;
+    margin: 5px;
+    transition: 2s ease;
+    border-radius: 4px;
+}
+
+.box-item:hover{
+    transition-duration: 0s;
+}
+
+.keys{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: -265px;
+}
+
+.key{
+    border: .4rem solid purple;
+    border-radius: 20%;
+    margin: 2rem;
+    font-size: 1.5rem;
+    padding: 1.75rem .5rem;
+    width: 6rem;
+    text-align: center;
+    color: white;
+    background: #000;
+    text-shadow: 0 0 .5rem black;
+}
+
+.dropZone{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    margin-top: -700px;
+}
+
+.dropZone11{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.dropitem{
+    border: .4rem solid white;
+    border-radius: 20%;
+    margin: 2rem;
+    width: 11rem;
+    height: 11rem;
+    color: white;
+}
+
+
+
+
